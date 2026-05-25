@@ -104,43 +104,48 @@ h1{
 }
 #projetos{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    width: 100vw;
-    border-bottom: solid 20px #14213d;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 .projetoFP{
-width: 300px;
-height: 600px;
-padding: 70px;
-
-margin-bottom: 50vh;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   flex-wrap: wrap;
+    gap: 40px;
 }
 .projetoFP h3{
-    color: #fca311;
-    font-size: 60px;
-    margin: 70px;
+    justify-content: center;
+  font-size: 70px;
+  color: #fca311;
+  margin: 30px 30px;
 }
 .projetoF {
-background-color: rgb(1, 13, 36);
-display: flex;
-flex-direction: column;
-padding: 100%;
-height: 200px;
+    width: 30px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #010d24;
+    padding: 40px;
+    
 }
 .projetoF img{
-    width: 100px;
-    height: 100px;
-    text-align: center;
+ display: flex;
+ justify-content: center;
+ margin-bottom: 50px;
 }
 .projetoFF{
-    width: 10px;
-    display: flex;
-    margin-top: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-evenly;
 }
 .projetoFF img{
-    width: 400px;
-    height: 79px;
+   width: 70px;
+  
 }
 #contatos{
     height: 100vh;
